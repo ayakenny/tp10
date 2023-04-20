@@ -1,0 +1,8 @@
+<h2>Choisissez votre couleur via les bouttons radio</h2>
+
+<div>
+    <input type="radio" name="colors" (click)="color='blue'"/>Blue
+    <input type="radio" name="colors" (click)="color='orange'"/>Orange
+    <input type="radio" name="colors" (click)="color='purple'"/>Purple    
+</div>
+<p [appHighlightDirective]="color">Test surbrillance</p>
